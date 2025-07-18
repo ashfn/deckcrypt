@@ -1,0 +1,1 @@
+emcc -std=c++20 bindings.cpp cards.cpp -o web/public/libs/cardcode.js -s WASM=1 -s EXPORTED_RUNTIME_METHODS=['ccall','cwrap'] -s MODULARIZE=1 -s NO_DISABLE_EXCEPTION_CATCHING -s EXPORT_NAME='createModule'  -s ENVIRONMENT=web -lembind -s ASSERTIONS=1  --bind
