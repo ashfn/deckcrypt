@@ -1,4 +1,4 @@
-# CardCode
+# DeckCrypt
 
 A system for encoding text into card deck permutations.
 
